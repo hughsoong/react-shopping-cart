@@ -1,4 +1,6 @@
-## 🛍️ Simple ecommerce cart application [![CircleCI](https://circleci.com/gh/jeffersonRibeiro/react-shopping-cart.svg?style=svg)](https://circleci.com/gh/jeffersonRibeiro/react-shopping-cart)
+## 🛍️ Simple ecommerce cart application
+
+This is a modified verison of https://github.com/jeffersonRibeiro/react-shopping-cart with some tests removed
 
 <p align="center">
 
@@ -16,7 +18,6 @@ friendly user experience with instant visual updates and scaleable code in ecomm
 - Sort products by highest to lowest and lowest to highest price
 - Filter products by available sizes
 - Products persist in floating cart after page reloads
-- Unit tests, integration tests and e2e testing
 - Responsive design
 
 ## Getting started
@@ -40,23 +41,13 @@ npm install
 /* Then start both Node and React */
 npm start
 
-/* To run the tests */
-npm run test
-
-/* Running e2e tests */
-npm run wdio
-
 
 ```
 
 ## About tests
 
 - Unit tests
-  - All components have at least a basic smoke test
-- Integration tests
-  - Fetch product and add to cart properly
-- e2e
-  - Webdriverio - Add and remove product from cart
+  - Most components have at least a basic smoke test
 
 ### Copyright and license
 
@@ -67,5 +58,5 @@ The MIT License (MIT). Please see License File for more information.
 
 <p align="center"><img src="https://avatars2.githubusercontent.com/u/20846473?s=70&v=4" width="35" height="35"/></p>
 <p align="center">
-<sub>A little project by <a href="http://www.jeffersonribeiro.com/">Jefferson Ribeiro</a></sub>
+<sub>Modified version of a little project by <a href="http://www.jeffersonribeiro.com/">Jefferson Ribeiro</a></sub>
 </p>
