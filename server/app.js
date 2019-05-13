@@ -21,7 +21,6 @@ app.get('/api/products', (req, res) => {
 
 app.post('/api/products', (req, res) => {
   data.products.push(req.body);
-  console.log(data);
   res.status(201).send(data);
 });
 
