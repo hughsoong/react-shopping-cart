@@ -9,6 +9,11 @@
 # production
 /build
 
+
+#cypress Test
+/results/
+/scrrenshots/
+
 # misc
 .DS_Store
 .env.local
