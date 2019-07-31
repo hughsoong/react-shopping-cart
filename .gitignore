@@ -13,7 +13,7 @@
 #cypress Test
 /results/
 /scrrenshots/
-
+/cypress/videos/
 # misc
 .DS_Store
 .env.local
